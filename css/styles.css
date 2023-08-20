@@ -8,5 +8,5 @@ body {
   background-image: url("img/new.avf");
 }
 #exp{
-  display: flex;
+  display: inline;
 }
