@@ -1,5 +1,5 @@
 #header {
-  display: flex;
+  display: inline-flex;
   height: 100 px;
   width: 100%;
   box-flex-group: rgb(224, 228, 224);
