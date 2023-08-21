@@ -1,12 +1,46 @@
-#header {
-  display: inline-flex;
-  height: 100 px;
-  width: 100%;
-  box-flex-group: rgb(224, 228, 224);
-}
 body {
-  background-image: url("img/new.avf");
+  background-image: url("paper.gif");
+  background-color: #cccccc;
 }
-#exp{
+header {
   display: flex;
+  text-decoration: none;
+  background-color: antiquewhite;
+}
+header > ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+  border-radius: 2px solid;
+  background-color: rgb(196, 186, 196);
+}
+a:hover {
+  text-decoration: solid;
+  background-color: aqua;
+}
+.home-page {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  
+}
+.home-page > div {
+  width: 50%;
+  margin: 20px;
+}
+.home-page > img {
+  height: 200px;
+  width: 200px ;
+  align-items: center;
+}
+#exp {
+  display: flex;
+}
+#exp > div {
+  padding: 20px;
 }
