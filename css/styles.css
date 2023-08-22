@@ -50,17 +50,67 @@ a:hover {
   align-items: center;
   margin-left: 200px;
 }
-.content {
-  margin-right: 50px;
+.home-page p{
+  font-weight: 200;
+  font-family: sans-serif;
 }
-#exp {
+.content {
+  margin: 50px;
+}
+.bio1 {
+  color: rgb(76, 92, 128);
+}
+.bio {
+  color: rgb(58, 68, 158);
+}
+#exp{
   display: flex;
-  border-radius: 1px rgb(43, 37, 37);
+  
+}
+#exp1 {
+  background-color: #d6dbd2;
+  border: 3px solid rgb(49, 57, 131); 
 }
 #exp > div {
-  padding: 10px;
+  padding: 5px;
 }
+.about {
+  display: flex;
+}
+.about-img {
+  width: 40%;
+  margin: 100px;
+}
+.about-img img {
+  border-radius: 50%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.education {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.services {
+  align-items: center;
+}
+.service-provided{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 
+}
+.sserfsrvices{
+  background-color: #501818;
+}
+.web{
+  display: flex;
+}
 .footer {
   height: 30px;
   width: 100%;
