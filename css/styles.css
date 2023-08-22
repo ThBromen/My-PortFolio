@@ -7,15 +7,15 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
-  background-color:#D6DBD2;
+  background-color: #d6dbd2;
   color: rgb(35, 33, 28);
   display: flex;
   justify-content: space-between;
   height: 60px;
 }
-header >div{
- margin-left: 2rem;
- align-items: center;
+header > div {
+  margin-left: 2rem;
+  align-items: center;
 }
 
 ul {
@@ -50,7 +50,7 @@ a:hover {
   align-items: center;
   margin-left: 200px;
 }
-.content{
+.content {
   margin-right: 50px;
 }
 #exp {
@@ -68,7 +68,7 @@ a:hover {
   font-size: 15px;
   background-color: rgb(46, 41, 41);
 }
-.footer p{
+.footer p {
   color: bisque;
   font-weight: bold;
   align-content: center;
