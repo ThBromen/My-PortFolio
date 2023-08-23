@@ -55,7 +55,15 @@ a:hover {
   font-family: sans-serif;
 }
 .content {
-  margin: 50px;
+  margin-right: 200px;
+  width: 500px;
+  height: 725px;
+  border: 0px solid rgb(49, 57, 131);
+  /* text-align: center;  */
+
+}
+.content p,h1,h3{
+  margin: 10px;
 }
 .bio1 {
   color: rgb(76, 92, 128);
@@ -70,9 +78,23 @@ a:hover {
 #exp1 {
   background-color: #d6dbd2;
   border: 3px solid rgb(49, 57, 131); 
+  width: 450px;
+  height: 250px;
+}
+#exp1 a{
+  text-align: center;
 }
 #exp > div {
   padding: 5px;
+}
+#exp1 img{
+  height: 100px;
+  width: 100px;
+}
+#exp1 h2{
+  text-align: center;
+  /* margin-inline-start: 20px; */
+  /* margin-right: 20px; */
 }
 .about {
   display: flex;
@@ -98,6 +120,9 @@ a:hover {
 }
 .services {
   align-items: center;
+}
+.services h1,button{
+  text-align: center;
 }
 .service-provided{
   display: flex;
