@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
     <title>My Portfolio</title>
   </head>
   <body>
-    <header>
+    <section class="top-nav">
       <div class="my-logo">
         <h2>BROMEN</h2>
       </div>
-      <ul>
+       <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+      <ul class="menu">
         <li></li><a href="/index.html">HOME</a></li>
         <li></li><a href="#about">ABOUT US</a></li>
         <li></li><a href="#service">SERVICES</a></li>
         <li></li><a href="#portfolio">PORTFOLIO</a></li>
        <li></li> <a  href="#contact">CONTACT</a></li>
       </ul>
-    </header>
+    </section>
     <div class="home-page">
       <div class="content">
         <h3>introduction</h3>
@@ -48,14 +54,14 @@
         </div>
         <a href="/MY CV          !!.pdf">browser my CV here</a>
       </div>
-      <div class=" home-img">
+      <div class="home-img">
         <img src="/img/DSC_6505.JPG"  >
       </div>
     </div>
     <h1 id="about"></h1>
     <hr>
     
-     <div class="about" id="ab">
+     <div class="about">
       <div class="about-img">
       <img src="/img/DSC_6505.JPG" alt="avatar" class="avatar"/>
     </div>
@@ -114,12 +120,16 @@ and software developer. </P>
   </div>
 </div>
 <hr>
+
+
 <dv class="services" id="service">
   <h1>Services provide for you</h1>
   <div class="service-provided">
 
-  <div id="exp1"><h2>Web Design</h2>
-    <div class="web"><div><img src="/img/download (2).jpg"  ></div>
+  <div id="exp1">
+    <h2>Web Design</h2>
+    <div class="web">
+      <div><img src="/img/download (2).jpg"  ></div>
   <div><p>I like  bringing ideas to life through crafted 
     visuals and meaningful animations, playing with colors,
      composition, 
@@ -335,7 +345,8 @@ efficiently.</p>
   </div>
   <div class="feed">
     <img src="/img/photo-1504199367641-aba8151af406.jpg"  >
-   <div><h3>John Peter</h3>
+   <div>
+    <h3>John Peter</h3>
     <p> mentol in software development and web development </p>
     <a  href="#contact">Connect</a>
    </div> 
@@ -372,6 +383,8 @@ efficiently.</p>
   </foam>
 </div>
 </div>
+
+
 <div class="info">
   <div class="info1">
 <img src="/Icons/location.png"  >
@@ -393,5 +406,6 @@ efficiently.</p>
     <div class="footer"> 
       <p>@2023 Bromen. All rights reserved.</p> 
     </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>
