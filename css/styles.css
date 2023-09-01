@@ -331,7 +331,7 @@ border-radius: 10px;
 
 
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 h1{
   font-size: 22px;
 }
@@ -342,7 +342,7 @@ h1{
   display: flex;
   justify-content: space-between;
   height: 50px;
-  width: 350px;
+  width: 100%;
   position: sticky;
   top: 0;
   left: 0;
