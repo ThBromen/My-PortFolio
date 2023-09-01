@@ -360,12 +360,12 @@ ul {
   margin-right: 0.5rem;
   display: flex;
   list-style: none;
-  gap: 0.3rem;
+  gap: 0.5rem;
 }
 .navbar a {
   color: rgb(35, 33, 28);
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
 }
 a:hover {
   color: white;
