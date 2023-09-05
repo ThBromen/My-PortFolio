@@ -168,7 +168,12 @@ a:hover {
 .education p,h4,h1,h2,h3{
   text-align: justify;
 }
-
+/* img.sticky{
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky;
+  width: 400px;
+} */
 
 .btn {
   text-align: center;
@@ -218,6 +223,7 @@ a:hover {
 
 }
 .service > div{
+  box-shadow: #e9ebe9;
 margin: 20px;
 width: 450px;
 border: 2px solid rgb(212, 212, 226);
@@ -312,27 +318,31 @@ height: auto;
   margin-top: 50px;
 }
 .foam{
-  border: 2px solid rgb(187, 188, 196);
-  width: 60%;
+  border: 1px solid rgb(222, 224, 233);
+  width: 50%;
   align-items: center;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 25%;
   background-color: #fefffe;
 
 }
 input{
     margin-top: 30px;
-    width:80%;
+    width:70%;
     height: 50px;
   }
   textarea{
+    margin-top: 20px;
      width:60%;
     height: 200px;
   }
   #submit{
      width:20%;
     height: 40px;
+    margin-bottom: 20px;
+    background-color: #90a380;
   }
+  
   .info{
     display: flex;
     justify-content: space-between;
@@ -414,7 +424,12 @@ border-radius: 10px;
   border: 2px solid wheat;
 }
 
-
+.logo{
+  height: 70px;
+  width: 70px;
+  text-align: center;
+   margin-left: 0px;
+}
 
 
 
@@ -425,6 +440,12 @@ border-radius: 10px;
 
 
 @media only screen and (max-width: 600px) {
+  .logo{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+
+}
 h1{
   font-size: 22px;
 }
