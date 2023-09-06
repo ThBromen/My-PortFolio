@@ -1,41 +1,11 @@
-// let toggleButton = document.getElementById('button')
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var subject = document.getElementById("subject").value;
 
-
-// let navBarLinks = document.getElementById('links')
-
-
-// toggleButton.addEventListener("click",()=>{
-//      navBarLinks.classList.toggle('active')
-// })
-
-// function myFunction() {
-//   // Get the value of the input field with id="numb"
-//   let x = document.getElementById("numb").value;
-//   // If x is Not a Number or less than one or greater than 10
-//   let text;
-//   if (isNaN(x) || x < 1 || x > 10) {
-//     text = "Input not valid";
-//   } else {
-//     text = "Input OK";
-//   }
-//   document.getElementById("demo").innerHTML = text;
-// }
-// mailto:hashimwimanatheogene34@gmail.com
-
-const name = documen.getElementById('name')
-const email = documen.getElementById('email');
-const subject = documen.getElementById('subjct');
-const msg = documen.getElementById('message');
-const foam = documen.getElementById("foam");
-const errorElement = document.getElementById('error')
-
-foam.addEventListener('submit',(e)=>{
-let messages =[]
-if (name.value === ''|| name.value == null){
-  messages.push('name is required')
+  if (name === "" || email === "" || subject === "") {
+    alert("All fields must be filled out");
+    return false;
+  }
+  return true;
 }
-if(messages.length > 0){
-e.preventDefault()
-errorElement.innerText=messages.join(',')
-}
-})

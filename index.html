@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    
+    <!-- <script defer src="/js/script.js"></script> -->
     <title>My Portfolio</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="brand-title">
-        <!-- <h2>BROMEN</h2> -->
       <img  class="logo" src="/Logo/logo-black.png"  ></div>
-      <!-- <a href="#" class="toggle-button" id="button">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-      </a> -->
     <div class='navbar-links'>
       <ul class="menu">
         <li><a href="/index.html">HOME</a></li>
@@ -334,21 +328,31 @@ efficiently.</p>
 
 
 <a  class="myb" href="#contact">CONTACT</a>
-
-<div id="contact">
-  <h1>GET IN TOUCH WITH US</h1>
-
-  <div class="foam">
-    <div id="error"></div>
-  <form id="foam" action="/" method="get">
-  <input id="name" type="text" name="fname" placeholder="Full-name" ><br>
-  <input id="email" type="email" name="email" placeholder="Email" required><br>
-  <input id="subject" type="text" name="subject" placeholder="subject" required> <br>
-  <textarea id="message"  name="message" rows="10" cols="30"  placeholder="msg" required></textarea><br>
-  <input  id="submit" type="submit" value="SUBMIT">
-  </foam>
-</div>
-</div>
+ <div id="contact">
+    <div class="foam">
+        <h1>Contact Us</h1>
+        <form action="/" method="get" onsubmit="return validateForm()">
+            <div>
+                <label for="name"></label>
+                <input type="text" id="name" name="name"  placeholder="Enter your full names">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" >
+            </div>
+            <div>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject"  placeholder="Enter message Subject">
+            </div>
+            <div>
+               <label for="message"></label>
+               <textarea id="name"  name="message" rows="10" cols="30"  placeholder="Message" ></textarea><br>
+            </div>
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 
 
 <div class="info">
